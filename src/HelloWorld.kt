@@ -1,5 +1,8 @@
 class HelloWorld {
-    fun main(){
-        println("Hello World")
+    fun main() {
+        var x = "Hello world!"
+        println(x)
+        x = "Bye bye world"
+        println(x)
     }
 }
