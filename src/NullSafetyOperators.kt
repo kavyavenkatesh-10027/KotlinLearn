@@ -8,5 +8,4 @@
         println("Deposit money to increase cash by a rupee: ")
         val cash = readln().toIntOrNull() ?. inc() // null gets assigned to the value if the precedent of ? is null, without crashing the method chaining
         println("Your current cash balance is $cash")
-
     }

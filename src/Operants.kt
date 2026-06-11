@@ -28,11 +28,15 @@
          */
 
 
-        //RELATIONAL OPERATOR
+        //EQUALITY OPERATOR
         var areXAndYNumbersEqual : Boolean = x==y //Equals operator returns boolean val
         println("Are x and y equal? : $areXAndYNumbersEqual")
 
         //Similarly we have:
+        println("Both z and y are different: ${x!=y}") //Again returns boolean
+
+
+        //RELATIONAL OPERATOR
         println(x>y)
         println(x<y)
 
@@ -42,5 +46,13 @@
         //LOGICAL (AND, OR, NOT)
         println(x%2 == 0 && x<y)
         println(x>y || y%2 == 0)
+        var condition: Boolean = true
 
+        if(condition){
+            println("It's true")
+        }
+        condition = false
+        if(!condition){
+            println("Still true, hence a negation!")
+        }
     }
