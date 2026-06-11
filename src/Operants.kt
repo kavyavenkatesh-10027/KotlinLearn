@@ -1,4 +1,4 @@
-class Operants {
+
     fun main(){
         //ARITHMETIC OPERATORS
         var x = 9
@@ -44,4 +44,3 @@ class Operants {
         println(x>y || y%2 == 0)
 
     }
-}
