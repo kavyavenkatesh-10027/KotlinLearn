@@ -18,5 +18,7 @@ class Types {
 
         val d = "Hello, world!"
         val d2: String = "Hello, dear world!" //String
+
+        //These are the primitive Data Types...
     }
 }
