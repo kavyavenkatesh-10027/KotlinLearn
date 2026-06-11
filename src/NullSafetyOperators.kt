@@ -1,14 +1,5 @@
 
     fun main(){
-        println("Please enter a number:")
-        val input = readln()
-        val inputAsInt = input.toIntOrNull()
-
-        println("You entered $inputAsInt")
-        operators()
-    }
-
-    fun operators(){
         println("Please enter another number:")
         val value = readln().toIntOrNull() ?: 0 // ?: is used to assign a default value if value becomes null
 
