@@ -28,6 +28,18 @@ class Operants {
          */
 
 
-        //LOGICAL OPERATOR
+        //RELATIONAL OPERATOR
+        var areXAndYNumbersEqual : Boolean = x==y //Equals operator returns boolean val
+        println("Are x and y equal? : $areXAndYNumbersEqual")
+
+        //Similarly we have:
+        println(x>y)
+        println(x<y)
+
+        //Use-case (Modulo & Equals)
+        println("Statement: X is an even number : ${x%2 == 0}")
+
+        //LOGICAL (AND, OR, NOT)
+
     }
 }
