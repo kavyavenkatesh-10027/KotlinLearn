@@ -40,6 +40,8 @@ class Operants {
         println("Statement: X is an even number : ${x%2 == 0}")
 
         //LOGICAL (AND, OR, NOT)
+        println(x%2 == 0 && x<y)
+        println(x>y || y%2 == 0)
 
     }
 }
