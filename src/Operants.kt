@@ -243,8 +243,8 @@ fun main() {
 // COMMON USE CASES
 
 // Check if a number is even
-    val n = 10
-    println((n and 1) == 0)   // true //VVI
+    val m = 10
+    println((m and 1) == 0)   // true //VVI
 
 // Multiply by 2
     println(7 shl 1)          // 14
