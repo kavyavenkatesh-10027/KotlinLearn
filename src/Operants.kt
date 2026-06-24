@@ -43,7 +43,7 @@ fun main() {
     println(list1 === list2)   // false (different objects)
     println(list1 === list3)   // true (same reference)
 
-    
+
     // RELATIONAL OPERATORS
     println(x > y)
     println(x < y)
